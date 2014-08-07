@@ -1,0 +1,16 @@
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.VBox?>
+<VBox xmlns:fx="http://javafx.com/fxml" fx:controller="dk.kyuff.basefx.samples.github.MainController">
+    <children>
+        <TextField fx:id="input" text="angular" onAction="#doSearch"/>
+        <Button onAction="#doSearch" text="Search"/>
+        <Label fx:id="status" text=""/>
+        <TableView fx:id="data">
+            <columns>
+                <TableColumn fx:id="fullNameColumn" text="Name" minWidth="300"/>
+                <TableColumn fx:id="descriptionColumn" text="Description" minWidth="400"/>
+            </columns>
+        </TableView>
+
+    </children>
+</VBox>

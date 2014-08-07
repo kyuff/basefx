@@ -1,0 +1,14 @@
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox xmlns:fx="http://javafx.com/fxml" fx:controller="dk.kyuff.basefx.samples.basic.BasicController">
+    <children>
+        <Button onAction="#onButtonClick" text="Add another view" />
+        <Label id="text" fx:id="label" text="Basic"/>
+
+        <VBox fx:id="stuff"></VBox>
+
+    </children>
+</VBox>

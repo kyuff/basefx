@@ -1,0 +1,8 @@
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+
+<?import javafx.scene.layout.VBox?>
+<VBox xmlns:fx="http://javafx.com/fxml" fx:controller="dk.kyuff.basefx.samples.github.ComponentController">
+    <TextField fx:id="textField"/>
+    <Button text="Click Me" onAction="#doSomething"/>
+</VBox>
