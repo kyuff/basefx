@@ -2,18 +2,13 @@ package dk.kyuff.basefx.core;
 
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Node;
-import javafx.scene.Parent;
 import javafx.scene.layout.VBox;
-import javafx.util.Callback;
 
-import javax.enterprise.context.ApplicationScoped;
-import javax.enterprise.inject.Instance;
 import javax.enterprise.inject.Produces;
 import javax.enterprise.inject.spi.InjectionPoint;
 import javax.inject.Inject;
 import java.io.IOException;
 import java.io.InputStream;
-import java.nio.charset.StandardCharsets;
 
 /**
  * User: swi
@@ -25,17 +20,17 @@ public class FXViewProducer {
     @Inject
     FXMLLoader fxmlLoader;
 
-    @Produces
-    @FXView("value must be defined")
-    public Node createNode(InjectionPoint injectionPoint) throws IOException {
-        return createController(injectionPoint);
-    }
-
-    @Produces
-    @FXView("value must be defined")
-    public Parent createParent(InjectionPoint injectionPoint) throws IOException {
-        return createController(injectionPoint);
-    }
+//    @Produces
+//    @FXView("value must be defined")
+//    public Node createNode(InjectionPoint injectionPoint) throws IOException {
+//        return createController(injectionPoint);
+//    }
+//
+//    @Produces
+//    @FXView("value must be defined")
+//    public Parent createParent(InjectionPoint injectionPoint) throws IOException {
+//        return createController(injectionPoint);
+//    }
 
     @Produces
     @FXView("value must be defined")

@@ -1,0 +1,4 @@
+Search from the Frontpage
+In order to find projects I would like to see
+As a user
+I want to be able to perform a search

@@ -5,7 +5,6 @@ import javafx.scene.Parent;
 import javafx.scene.control.TextField;
 import org.junit.Before;
 import org.junit.Rule;
-import org.junit.Test;
 import org.loadui.testfx.GuiTest;
 import org.loadui.testfx.utils.FXTestUtils;
 
@@ -32,7 +31,7 @@ public class GithubAppTest extends GuiTest {
         return weldRule.getRootNode();
     }
 
-    @Test
+    //@Test
     public void testHelloWorld() throws Exception {
         System.out.println("running this::testHelloWorld");
         // setup
@@ -46,7 +45,6 @@ public class GithubAppTest extends GuiTest {
 
     }
 
-    @Test
     public void testHelloMyself() throws Exception {
         System.out.println("running this::testHelloMyself");
         // setup
